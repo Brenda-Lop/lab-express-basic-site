@@ -1,0 +1,44 @@
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+  body {
+    background-color: red;
+  }
+
+  h2 {
+
+  }
+  .albums {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    color: black;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 30px;
+  }
+
+  img {
+    width: 220px;
+    height: 220px;
+  }
+
+  h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color:black;
+    text-shadow: 3px 3px whitesmoke;
+    margin: 30px 0 10px 650px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: none; 
+    margin-bottom: 20px; 
+  }

@@ -1,0 +1,38 @@
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+body {
+    color: black;
+    background-image: url("../images/rosa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+  } 
+
+ h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 80px;
+  color:black;
+  text-shadow: 4px 4px whitesmoke;
+  position: relative;
+  margin: 300px 0 50px 0;
+ }
+
+ .links {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-style: none;
+  font-size: 17px;
+  text-shadow: 2px 2px whitesmoke; 
+  text-decoration: none;
+ }
+
+ .cover-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
